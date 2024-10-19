@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Config files
+*.env
+.env.*
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Pytest
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VSCode settings
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Backup files
+*.swp
+*.swo
+
+# FastAPI specific
+.idea/
+
+# Docker
+*.pid
+*.seed
+*.cover
+*.DS_Store
+docker-compose.override.yml
+
+# Test reports
+reports/
+coverage.xml
+htmlcov/
+
+# Local stack files
+.stack-work/
